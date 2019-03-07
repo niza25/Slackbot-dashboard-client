@@ -1,5 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import HeaderContainer from './header/HeaderContainer'
+import ChartsContainer from './header/ChartsContainer'
 
 class DashboardContainer extends React.Component {
 
@@ -11,7 +13,8 @@ class DashboardContainer extends React.Component {
 
     return (
       <div>
-        
+        <HeaderContainer/>
+        <ChartsContainer />
       </div>
     )
   }
